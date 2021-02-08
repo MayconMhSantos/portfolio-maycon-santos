@@ -1,0 +1,383 @@
+/* Geral reset elementos */
+
+body, p, h1, h2, input, textarea{
+    margin: 0;
+    font-family: Roboto;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* navbar */
+#navbar {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 20px;
+    height: 60px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav{
+    display: inline-block;
+}
+
+/* Logo maycon santos */
+#navbar h2 {
+    line-height: 60px;
+    padding-left: 130px;
+}
+
+/* imagem DEV logo */ 
+#navbar img {
+    padding-left: 20px;
+    height: 100px;
+    position: absolute;
+    top: 2.5px
+}
+
+#navbar nav {
+    float: right;
+}
+
+#navbar ul {
+    margin-top: 22px;
+}
+
+#navbar li {
+    margin: 0 10px;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#navbar-list li a:hover {
+    border-bottom: 1px solid white;
+}
+
+/* banner*/
+#main-banner {
+    height: 70vh;/* se comporta com a altura da tela 70% da altura da tela */
+    background-image: url('../img/bg-main2.png');
+    background-size: cover;
+    background-repeat:no-repeat ;
+    padding: 15vh;
+}
+
+#banner-info {
+    width: 40%;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin-top: 0%;
+}
+
+#banner-info h1 {
+    font-size: 40px;
+    margin-top: -50px;
+}
+
+#banner-info img {
+    width: 275px;
+
+}
+    
+
+
+#banner-info p {
+    background-color: rgba(192, 191, 191, 0.61);
+    font-weight: bold;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+/* about */
+
+#about-section {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(61, 61, 61);
+    /* background-color: darkgoldenrod; */
+    color: white;
+    padding-top: 50px;
+    height: 380px;
+}
+
+#about-section h2 {
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#about-section p {
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+}
+
+/* Skills */
+
+#skill-section {
+    margin-top: -100px;
+    background-color: white;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    border-bottom: 1px solid #DDD;
+}
+
+#skill-section .container {
+    display: flex;
+    flex-direction: row; /* um do lado do outro*/
+    justify-content: center;
+}
+.linha-vertical {
+    border-left: 1px solid #DDD;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+  }
+
+#skill-section .container {
+    display: flex;
+    flex-direction: row; /* um do lado do outro*/
+    justify-content: center;
+}
+
+.skill-container {
+    flex: 1;
+    /* border-left: 1.5px solid #DDD; */
+    /* border-right: 1.5px solid #DDD; */
+    text-align: center;
+    padding: 60px 55px;
+}
+
+
+.skill-container h3 {
+    color: darkorange;
+    font-size: 20px;
+}
+
+.skill-container img {
+    height: 150px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-top: 1px solid rgba(192, 191, 191, 0.61);
+    border-left: 1px solid rgba(192, 191, 191, 0.61);
+    border-bottom: 4.5px solid rgba(192, 191, 191, 0.61);
+    border-right: 4.5px solid rgba(192, 191, 191, 0.61);
+}
+
+.skill-container .subtitle {
+    font-weight: bold;
+    font-size: 20px;
+    color: darkorange;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.skill-container p {
+    line-height: 25px;
+}
+
+
+/* jobs */
+
+#jobs-section {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#jobs-section h2 {
+    color: darkorange;
+    margin-bottom: 30px;
+}
+
+#jobs-section p {
+    margin-bottom: 50px;
+}
+
+#jobs-section a {
+    font-weight: bold;
+    color: darkorange;
+}
+
+.job-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.job-box {
+    flex: 1 1 200px;
+    height: 620px;
+    background-size: cover;
+    border-right: 2px solid darkorange;
+    border-bottom: 2px solid darkorange;
+}
+
+.proj1 {
+background-image: url("../img/webEmprego1.PNG");
+/* background-size: cover; */
+background-position:center;
+}
+.proj2 {
+    background-image: url("../img/webEmprego2.PNG");
+    }
+.proj3 {
+background-image: url("../img/quizz1.PNG");
+}
+.proj4 {
+background-image: url("../img/quizz2.PNG");
+}
+
+/* footer */
+
+footer {
+    padding: 50px 0;
+    background-color: darkorange;
+    color: white;
+    text-align: center;
+}
+
+footer img {
+    height: 130px;
+    margin: 10px 0;
+}
+
+footer p {
+    margin-top: 25px;
+}
+
+footer form {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer input, footer textarea {
+    border:none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+footer.detail {
+    font-weight: bold;
+}
+
+
+/* responsivo */
+
+@media(max-width: 412px) {
+
+
+    p, input, textarea{
+        font-size: 1rem; /* thml - 18 px -> 1rem ->18px */
+    }
+
+    #navbar h2 {
+        display: none;
+    }
+
+    #navbar img {
+        top: 2%;
+        margin-left: -35px;
+        max-width: 80px;
+        max-height: 80px;
+        
+    }
+
+    #navbar-list {
+        margin-left: 0%;
+    }
+
+    #navbar-list li a{
+        font-size: 1.2rem;
+    }
+
+
+    #main-banner {
+        width: 55vh;
+        padding: 1vh;
+        padding-bottom: 10vh;
+    }
+    
+    #banner-info h1 {
+        margin-top: 5ch;
+        font-size: 1.7rem;
+        margin-left: -3ch;
+        margin-right: -3ch;
+    }
+
+    #banner-info img {
+        max-width: 200px;
+        margin-left: -3ch;
+        margin-right: -3ch;
+    }
+
+    #banner-info p {
+        font-size: 1.3rem;
+        margin-left: -3ch;
+        margin-right: -3ch;
+        padding-bottom: 1.5ch;
+        width: auto;
+    }
+
+    #about-section {
+        padding: 2rem;
+        height: auto;
+        padding-bottom: 150px;
+    }
+
+    .linha-vertical {
+        display: none;
+    }
+
+    .skill-section .container {
+        flex-direction: column;
+    }
+
+    #jobs-section h2, #jobs-section p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0rem;
+    }
+
+    .job-container {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .job-box {
+        margin-bottom: 2rem;
+        margin-left: 2ch;
+        margin-right: 2ch;
+        /* flex: 1 1 300px; */
+    }
+
+    footer form {
+        width: 100%;
+    }
+
+    .detail {
+        margin-top: 10px;
+        display: block;
+    }
+
+}

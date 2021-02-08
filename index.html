@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&family=Domine:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!--navbar-->
+    <header id="navbar">
+        <img src="img/logo.png" alt="Logo-Dev">
+        <h2>Maycon Santos</h2>
+        <nav>
+            <ul id="navbar-list"><!--UL Nao ordenada-->
+                <li><a href="#">Sobre </a></li><!--LI link da barra de navegacao-->
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--fim navbar-->
+
+    <main>
+        <!--Baner Inicio-->
+        <div id="main-banner">
+            <div id="banner-info">
+                <h1>Olá, eu sou <br> Maycon Santos</h1>
+                <img src="img/macyonsantos.png" alt="Meu perfil">
+                <p>Developer Junior</p>
+            </div>
+        </div>
+        <!--Baner Fim-->
+
+        <!-- about inicio-->
+        <section id="about-section">
+            <h2>Sobre Mim!</h2>
+            <p>Sou Maycon Santos, tenho 25 anos resido na cidade de Cascavel-PR. Sou formado em Análise e Desenvolvimento de Sistemas no Centro Universitário Univel, meu primeiro contato com desenvolvimento foi na faculdade e desde então não penso em fazer outra coisa.</p>
+        </section>
+        <!--about fim-->
+
+    </main>
+
+    <!-- skill inicio-->
+    <section id="skills-section">
+        <div class="container">
+
+            <!--Box desenvolvedor-->
+            <div class="skill-container">
+                <img src="img/skilljavascript.png" alt="logo-skill-javascript" width="100" height="100">
+                <h3>Desenvolvimento</h3>
+                <p>Minha maior paixão é desenvolver projetos Web.</p>
+                <p class="subtitle">Projetos que posso desenvolver:</p>
+                <p>Pequenos projetos web, nada complexo. Manuteção em sites tanto HTML, CSS e JavaScript. </p>
+            </div>
+
+            <div class="linha-vertical"></div>
+
+            <div class="skill-container">
+                <img src="img/suporte.png" alt="logo-skill-javascript" width="120" height="120">
+                <h3>Suporte</h3>
+                <p>Boa comunicação e abordagem de atendimento ao cliente, adquirido com experiências profissionais.</p>
+                <p class="subtitle">Tipos de Suporte</p>
+                <p> HTML, CSS, rede, atendimento remoto toda a abordagem de suporte.</p>
+            </div>
+            
+        </div>
+    </section>
+    <!--skill fim-->
+
+    <!--Jobs Inicio-->
+    <section id="jobs-section">
+        <h2>Veja meus últimos trabalhos</h2>
+        <p>Aqui estão meus trabalhos mais recentes, simples mais funcionais!. Ver no GitHub <a href="https://github.com/MayconMhSantos">Clique aqui</a></p>
+            <div class="job-container">
+                <div class="job-box proj1"></div>
+            </div>
+            <div class="job-container">
+                <div class="job-box proj2"></div>
+            </div>
+            <div class="job-container">
+                <div class="job-box proj3"></div>
+            </div>
+            <div class="job-container">
+                <div class="job-box proj4"></div>
+            </div>
+        <!-- <div class="job-container">
+            <div class="job-box proj1"></div>
+            <div class="job-box proj2"></div>
+        </div>
+        <div class="job-container">
+            <div class="job-box proj3"></div>
+            <div class="job-box proj4"></div>
+        </div> -->
+    </section>
+    <!--Jobs Inicio-->
+
+    <!--Footer inicio-->
+    <footer>
+        <h2>Contato!</h2>
+        <p>Caso tenha interesse em me contratar, aguardo sua mensagem!.</p>
+        <img src="img/macyonsantos.png" alt="perfil-maycon-contato">
+        <!--formulario (Action:para onde sera enviado URL tratar dados)(method:get buscar ou post envio)-->
+        <form action="" method="">
+            <input type="text" name="name" placeholder="Seu nome" >
+            <input type="email" name="email" placeholder="Seu e-mail" >
+            <textarea name="msg" placeholder="Digite uma mensagem"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <p>Desenvolvido por: <span class="detail">Maycon Santos</span></p>
+    </footer>
+    <!--Footer fim-->
+</body>
+</html>
